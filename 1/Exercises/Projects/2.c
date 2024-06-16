@@ -3,7 +3,10 @@
 float formula(float radius);
 
 int main(void){
-float result = formula(10);
+	int num;
+	printf("Please input the number: \n");
+scanf("%d", &num);
+float result = formula(num);
 printf("%f", result);
 }
 
